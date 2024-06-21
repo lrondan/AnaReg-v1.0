@@ -1,0 +1,57 @@
+ant:
+<ant>
+  <mkdir dir="D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1\for_redistribution" />
+  <mkdir dir="D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1\for_testing" />
+  <mkdir dir="D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1\for_redistribution_files_only" />
+</ant>
+mcc -C -o AnaReg_V1 -W WinMain:AnaReg_V1 -T link:exe -d 'D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1\for_testing' -v 'D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1.m' -a 'D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\activador_Menu.m' -a 'D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1.fig' -a 'D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1.m' -a 'D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1.prj' -a 'D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\Documentacion' -a 'D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\FotoEsqRegulacionProcesos.jpg' -a 'D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\Valida_AnaReg_V1.m' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "D:\escuela[ing.quimica]\4to año\tesis\alexis\programa" to
+Compiler path instance.] 
+Parsing file "D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 34 temporary MEX authorization files.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec27300_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec12744_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec6434_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec17587_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec5456_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec253_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec24348_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec29752_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec6875_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec6407_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec19735_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec30626_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec27777_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec5714_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec3524_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec24106_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec18549_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec14352_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec23287_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec25997_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec21149_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec28903_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec460_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec30530_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec7204_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec25758_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec20733_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec14570_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec16056_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec26242_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec11702_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec7637_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec14326_5868.auth'.
+Removing: 'C:\Users\LUISAL~1\AppData\Local\Temp\mathworks_tmp_016ec14088_5868.auth'.
+Generating file "D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1\for_testing\readme.txt".
+Packaging...
+Adding custom icon D:\PROGRAMACION\MathLab\Matlab 2015\aki esta instala2\toolbox\compiler\Resources\default_icon.ico to D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1\for_testing\AnaReg_V1.exe.
+Attempting to embed the CTF archive into the application D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1\for_testing\AnaReg_V1.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at D:\escuela[ing.quimica]\4to año\tesis\alexis\programa\AnaReg_V1\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 59 seconds.
